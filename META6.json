@@ -6,6 +6,8 @@
   "build-depends": [
   ],
   "depends": [
+    "Git::Status",
+    "JSON::Fast"
   ],
   "description": "Provides a Raku script, 'addresources', to aid in creating a new module",
   "license": "Artistic-2.0",
@@ -16,7 +18,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/tbrowder/App-Add-resources.git",
   "tags": [
   ],
   "test-depends": [
