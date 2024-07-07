@@ -1,0 +1,25 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provides a Raku script, 'addresources', to aid in creating a new module",
+  "license": "Artistic-2.0",
+  "name": "App::Add-resources",
+  "perl": "6.d",
+  "provides": {
+    "App::Add-resources": "lib/App/Add-resources.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
