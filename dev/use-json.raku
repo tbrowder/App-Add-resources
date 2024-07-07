@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-
 use JSON::Fast <sorted-keys>;
 use File::Find;
 
@@ -32,9 +31,8 @@ if %p{$name}:exists {
     my $f = %p{$name};
     say "its file name : $f";
     my $cdir = $f.IO.basename;
-    my $pdir = $f.IO.parent;
-    $pdir .= Str.stem;
-    say "its child  lib: $pdir/$cdir";
+    my $pdir = $f.IO.extension: "";
+    say "its child  lib: $pdir";
 }
 else {
 }
